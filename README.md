@@ -6,7 +6,9 @@
 [![License](https://img.shields.io/github/license/avillalba-elastic/python-uv-asessment)](https://github.com/avillalba-elastic/python-uv-asessment/blob/main/LICENCE.txt)
 [![Release](https://img.shields.io/github/v/release/avillalba-elastic/python-uv-asessment)](https://github.com/avillalba-elastic/python-uv-asessment/releases)
 
-TODO.
+Assessment of the new [uv tool](https://docs.astral.sh/uv/) to manage Python packages and projects. 
+
+Inspired by [this post in the MLOps Community](https://home.mlops.community/home/blogs/poetry-was-good-uv-is-better-an-mlops-migration-story-2025-02-03?utm_campaign=Weekly+Newsletter+-+2025-02-06&utm_content=Weekly+Newsletter&utm_medium=KQcFSzsMJAUFCS8ECAwIBD4RIQpKBiI&utm_source=customer.io).
 
 # Installation
 

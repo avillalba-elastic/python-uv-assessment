@@ -5,7 +5,7 @@
 [tool.poetry]
 name = "python-uv-asessment"
 version = "0.1.0"
-description = "TODO"
+description = "Assessment of the new uv tool to manage Python packages and projects."
 repository = "https://github.com/avillalba-elastic/python-uv-asessment"
 documentation = "https://avillalba-elastic.github.io/python-uv-asessment/"
 authors = ["avillalba-elastic"]
