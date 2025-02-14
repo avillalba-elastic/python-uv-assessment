@@ -1,0 +1,8 @@
+# https://docs.pyinvoke.org/en/latest/index.html
+
+run:
+  echo: true
+project:
+  name: Python UV Asessment
+  package: python_uv_asessment
+  repository: python-uv-asessment

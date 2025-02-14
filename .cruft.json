@@ -1,0 +1,21 @@
+{
+  "template": "git@github.com:elastic/mlops-platform-template.git",
+  "commit": "4847b8b38f8543b7060f663e222ac9b94ed8e250",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "user": "avillalba-elastic",
+      "name": "Python UV Asessment",
+      "repository": "python-uv-asessment",
+      "package": "python_uv_asessment",
+      "license": "MIT",
+      "version": "0.1.0",
+      "description": "TODO",
+      "python_version": "3.10",
+      "mlflow_version": "2.16.2",
+      "sonarqube_project_key": "",
+      "_template": "git@github.com:elastic/mlops-platform-template.git"
+    }
+  },
+  "directory": null
+}
