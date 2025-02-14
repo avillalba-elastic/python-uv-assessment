@@ -51,35 +51,3 @@ jobs:
         with:
           name: coverage-report
           path: coverage.xml
-  sonarqube:
-    name: Run SonarQube code analysis
-    runs-on: ubuntu-latest
-    needs: pytest
-    permissions: read-all
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download coverage report
-        uses: actions/download-artifact@v4
-        with:
-          name: coverage-report
-          path: .
-      - uses: sonarsource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-  check_template_changes_to_propagate:
-    name: Check if changes to the template need to be propagated
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      - name: Set SSH key for reading template repository
-        uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.TEMPLATE_SSH_KEY }}
-      - name: Install cruft
-        run: pip install cruft
-      - name: Show changes to propagate
-        run: cruft diff --exit-code
