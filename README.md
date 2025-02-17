@@ -10,6 +10,8 @@ Assessment of the new [uv tool](https://docs.astral.sh/uv/) to manage Python pac
 
 Inspired by [this post in the MLOps Community](https://home.mlops.community/home/blogs/poetry-was-good-uv-is-better-an-mlops-migration-story-2025-02-03?utm_campaign=Weekly+Newsletter+-+2025-02-06&utm_content=Weekly+Newsletter&utm_medium=KQcFSzsMJAUFCS8ECAwIBD4RIQpKBiI&utm_source=customer.io).
 
+Note: This in still WIP and this README needs to be updated.
+
 # Installation
 
 We use the package manager [Poetry](https://python-poetry.org/). Follow [these instructions](https://python-poetry.org/docs/#installation) to install it.
